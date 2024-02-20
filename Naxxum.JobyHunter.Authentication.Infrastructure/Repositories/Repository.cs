@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Naxxum.JobyHunter.Authentication.Application.Interfaces;
+using Naxxum.JobyHunter.Authentication.Domain.Entities;
 
 namespace Naxxum.JobyHunter.Authentication.Infrastructure.Repositories
 {
@@ -23,6 +24,8 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Repositories
         public async Task<TEntity> AddAsync(TEntity entity)
         {
             await _entity.AddAsync(entity);
+            await _context.SaveChangesAsync();
+            
             return entity;
         }
 

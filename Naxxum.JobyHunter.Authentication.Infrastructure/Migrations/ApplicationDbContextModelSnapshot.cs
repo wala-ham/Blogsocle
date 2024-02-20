@@ -21,7 +21,7 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Naxxum.JobyHunter.Authentication.Domain.Entities.User", b =>
+            modelBuilder.Entity("Naxxum.JobyHunter.Authentication.Domain.Entities.Blog", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -29,7 +29,15 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("LastName")
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -39,7 +47,7 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Blogs");
                 });
 #pragma warning restore 612, 618
         }

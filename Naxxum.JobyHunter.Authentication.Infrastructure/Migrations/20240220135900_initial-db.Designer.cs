@@ -11,8 +11,8 @@ using Naxxum.JobyHunter.Authentication.Infrastructure.Data;
 namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240220102924_initialMig")]
-    partial class initialMig
+    [Migration("20240220135900_initial-db")]
+    partial class initialdb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,7 +24,7 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Naxxum.JobyHunter.Authentication.Domain.Entities.User", b =>
+            modelBuilder.Entity("Naxxum.JobyHunter.Authentication.Domain.Entities.Blog", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -32,7 +32,15 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("LastName")
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -42,7 +50,7 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Blogs");
                 });
 #pragma warning restore 612, 618
         }

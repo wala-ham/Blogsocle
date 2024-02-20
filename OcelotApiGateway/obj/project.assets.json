@@ -1021,11 +1021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\OcelotApiGateway\\OcelotApiGateway.csproj",
+      "projectUniqueName": "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\OcelotApiGateway\\OcelotApiGateway.csproj",
       "projectName": "OcelotApiGateway",
-      "projectPath": "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\OcelotApiGateway\\OcelotApiGateway.csproj",
+      "projectPath": "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\OcelotApiGateway\\OcelotApiGateway.csproj",
       "packagesPath": "C:\\Users\\walah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\OcelotApiGateway\\obj\\",
+      "outputPath": "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\OcelotApiGateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\walah\\AppData\\Roaming\\NuGet\\NuGet.Config",

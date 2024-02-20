@@ -1,10 +1,8 @@
-﻿/*using AutoMapper;
-
+﻿using AutoMapper;
 using MediatR;
 using Naxxum.JobyHunter.Authentication.Application.Blogs.DTOS;
 using Naxxum.JobyHunter.Authentication.Application.Interfaces;
 using Naxxum.JobyHunter.Authentication.Domain.Entities;
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +13,6 @@ namespace Naxxum.JobyHunter.Authentication.Application.Blogs.Commands.CreateBlog
 {
     public class CreateBlogCommandHandler : IRequestHandler<CreateBlogCommand, BlogVm>
     {
-   
         private readonly IBlogService _blogRepository;
         private readonly IMapper _mapper;
 
@@ -31,11 +28,10 @@ namespace Naxxum.JobyHunter.Authentication.Application.Blogs.Commands.CreateBlog
                 Name = request.Name,
                 Description = request.Description,
                 Author = request.Author,
-                ImageUrl= request.ImageUrl,
+                ImageUrl = request.ImageUrl,
             };
             var Result = await _blogRepository.AddAsync(blogEnity);
             return _mapper.Map<BlogVm>(Result);
         }
     }
 }
-*/

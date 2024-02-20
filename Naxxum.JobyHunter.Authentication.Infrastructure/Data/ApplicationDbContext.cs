@@ -18,8 +18,8 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Data
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }
 
-/*        public DbSet<Blog> Blogs { get; set; }
-*/        public DbSet<User> Users { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+
     }
 
 }

@@ -5,6 +5,7 @@ using Naxxum.JobyHunter.Authentication.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using Naxxum.JobyHunter.Authentication.Domain.Entities;
 using Naxxum.JobyHunter.Authentication.Infrastructure.Repositories;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 

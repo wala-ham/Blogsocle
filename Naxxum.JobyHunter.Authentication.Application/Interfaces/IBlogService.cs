@@ -9,5 +9,6 @@ namespace Naxxum.JobyHunter.Authentication.Application.Interfaces
 {
     public interface IBlogService : IRepository<Blog>
     {
+        
     }
 }

@@ -1,5 +1,5 @@
-﻿/*
-using MediatR;
+﻿using MediatR;
+using Naxxum.JobyHunter.Authentication.Application.Blogs.DTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Naxxum.JobyHunter.Authentication.Application.Blogs.Commands.CreateBlog
 {
-    public class CreateBlogCommand : IRequest<Naxxum.JobyHunter.Authentication.Application.Blogs.DTOS.BlogVm>
+    public class CreateBlogCommand : IRequest<BlogVm>
     {
         public string Name { get; set; }
         public string Description { get; set; }
@@ -16,4 +16,3 @@ namespace Naxxum.JobyHunter.Authentication.Application.Blogs.Commands.CreateBlog
         public string ImageUrl { get; set; }
     }
 }
-*/

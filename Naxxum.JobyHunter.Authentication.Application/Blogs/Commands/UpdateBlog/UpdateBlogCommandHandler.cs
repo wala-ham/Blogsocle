@@ -1,5 +1,4 @@
-﻿/*
-using MediatR;
+﻿using MediatR;
 using Naxxum.JobyHunter.Authentication.Application.Interfaces;
 using Naxxum.JobyHunter.Authentication.Domain.Entities;
 using System;
@@ -20,7 +19,7 @@ namespace Naxxum.JobyHunter.Authentication.Application.Blogs.Commands.UpdateBlog
         }
         public async Task<int> Handle(UpdateBlogCommand request, CancellationToken cancellationToken)
         {
-            var UpdateblogEntity = new Blog()
+            var UdateblogEntity = new Blog()
             {
                 Id = request.Id,
                 Author = request.Author,
@@ -29,8 +28,7 @@ namespace Naxxum.JobyHunter.Authentication.Application.Blogs.Commands.UpdateBlog
                 ImageUrl = request.ImageUrl,
             };
 
-          return await _blogRepository.UpdateAsync(request.Id,UpdateblogEntity);
+            return await _blogRepository.UpdateAsync(request.Id, UdateblogEntity);
         }
     }
 }
-*/

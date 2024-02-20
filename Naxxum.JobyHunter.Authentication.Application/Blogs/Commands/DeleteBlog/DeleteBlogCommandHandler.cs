@@ -1,7 +1,5 @@
-﻿/*
-using MediatR;
+﻿using MediatR;
 using Naxxum.JobyHunter.Authentication.Application.Interfaces;
-using Naxxum.JobyHunter.Authentication.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,8 +18,7 @@ namespace Naxxum.JobyHunter.Authentication.Application.Blogs.Commands.DeleteBlog
         }
         public async Task<int> Handle(DeleteBlogCommand request, CancellationToken cancellationToken)
         {
-          return await _blogRepository.DeleteAsync(request.Id);
+            return await _blogRepository.DeleteAsync(request.Id);
         }
     }
 }
-*/

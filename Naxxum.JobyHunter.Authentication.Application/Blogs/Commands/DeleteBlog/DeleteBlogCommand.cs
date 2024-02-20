@@ -1,4 +1,4 @@
-﻿/*using MediatR;
+﻿using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,4 +12,3 @@ namespace Naxxum.JobyHunter.Authentication.Application.Blogs.Commands.DeleteBlog
         public int Id { get; set; }
     }
 }
-*/

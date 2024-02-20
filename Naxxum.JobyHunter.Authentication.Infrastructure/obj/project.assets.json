@@ -4249,11 +4249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Infrastructure\\Naxxum.JobyHunter.Authentication.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Infrastructure\\Naxxum.JobyHunter.Authentication.Infrastructure.csproj",
       "projectName": "Naxxum.JobyHunter.Authentication.Infrastructure",
-      "projectPath": "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Infrastructure\\Naxxum.JobyHunter.Authentication.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Infrastructure\\Naxxum.JobyHunter.Authentication.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\walah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\walah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4270,8 +4270,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Application\\Naxxum.JobyHunter.Authentication.Application.csproj": {
-              "projectPath": "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Application\\Naxxum.JobyHunter.Authentication.Application.csproj"
+            "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Application\\Naxxum.JobyHunter.Authentication.Application.csproj": {
+              "projectPath": "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Application\\Naxxum.JobyHunter.Authentication.Application.csproj"
             }
           }
         }

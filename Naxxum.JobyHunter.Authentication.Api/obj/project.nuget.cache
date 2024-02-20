@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "116TgZlKRau0eQMkVYHXB82i7gRgtmpJ7Wg5/MqKX+GRa74eKN1VOPcNcaBWm3BK9p3xxmkllT907OXkN2Yn8g==",
+  "dgSpecHash": "0xkYOqgjf4O/OgzQSZkOg6AFcZ3I9RFx1r08yRJdU+UnT4rsLhFDPZO6Vblwd5FOIMefUryQufmOy/qVqv7F0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\walah\\OneDrive\\Desktop\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Api\\Naxxum.JobyHunter.Authentication.Api.csproj",
+  "projectFilePath": "C:\\Users\\walah\\OneDrive\\Desktop\\StagePFE\\JobytestCRUD\\JobyHunter-Back\\Naxxum.JobyHunter.Authentication.Api\\Naxxum.JobyHunter.Authentication.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\walah\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\walah\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

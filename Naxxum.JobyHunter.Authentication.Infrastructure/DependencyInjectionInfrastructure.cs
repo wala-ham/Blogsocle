@@ -25,6 +25,8 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure
             );
 
             services.AddTransient<IRepository<Blog>, Repository<Blog>>();
+            services.AddTransient<IBlogService,BlogService>();
+
 
             return services;
 
