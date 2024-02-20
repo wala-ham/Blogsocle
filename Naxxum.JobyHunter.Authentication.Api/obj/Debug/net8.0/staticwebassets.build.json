@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cT6GfmKF8RTyo+mnqRsV//8FWhAL5Psygj0YPNgDKpc=",
+  "Source": "Naxxum.JobyHunter.Authentication.Api",
+  "BasePath": "_content/Naxxum.JobyHunter.Authentication.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
